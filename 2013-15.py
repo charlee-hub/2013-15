@@ -80,10 +80,10 @@ bad_email = 0
 good_ig = 0
 infoinsta = {}
 
-TEAMAWE = render('{YUTA}', colors=['white', 'red'], align='center')
+TEAMAWE = render('{BRONTZ}', colors=['white', 'red'], align='center')
 print(f'''
 \033[1;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                      {TEAMAWE}
+                    
 \033[2;36m IG FREE TOOL BY Brontz | TG: @Brontz
 \033[1;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ''')
@@ -303,9 +303,9 @@ def InfoAcc(username, domain):
 𝑏𝑖𝑜 : [ {bio} ]
 𝑟𝑒𝑠𝑒𝑡 : [ {rest(username)} ]
 ⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-[ YOU GOT A HIT | @brotz  ]
+[ YOU GOT A HIT | @brontz  ]
 """
-    with open('Yuta.txt', 'a') as f:
+    with open('Brontz.txt', 'a') as f:
         f.write(info_text + "\n")
     try:
         requests.get(f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={ID}&text={info_text}")
